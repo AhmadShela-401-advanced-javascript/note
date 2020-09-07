@@ -30,12 +30,12 @@ describe('Input modules',()=>{
         let option = new Input();
         expect(option.checkMsg('true')).toBeTruthy();
     })
-    it('Given invalid input',()=>{
-        let option = new Input();
-        expect(option.checkMethod()).toEqual('add');
-    })
-    it('Given invalid input',()=>{
-        let option = new Input();
-        expect(option.checkMsg()).toBeTruthy();
-    })
+    // it('Given invalid input',()=>{
+    //     let option = new Input();
+    //     expect(option.checkMethod()).toEqual('add');
+    // })
+    // it('Given invalid input',()=>{
+    //     let option = new Input();
+    //     expect(option.checkMsg()).toBeTruthy();
+    // })
 })
