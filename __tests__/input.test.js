@@ -20,11 +20,11 @@ describe('Input modules',()=>{
     })
     it('Given good input',()=>{
         let option = new Input();
-        expect(option.checkMethod('add')).toEqual('add');
+        expect(option.checkMethod('add')).toBeTruthy();
     })
     it('Given good input',()=>{
         let option = new Input();
-        expect(option.checkMethod('a')).toEqual('add');
+        expect(option.checkMethod('a')).toBeTruthy();
     })
     it('Given good input',()=>{
         let option = new Input();
