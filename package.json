@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest --verbose --coverage"
+    "test": "jest --verbose --coverage",
+    "lint": "eslint '**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -21,10 +22,12 @@
   },
   "homepage": "https://github.com/AhmadShela-401-advanced-javascript/notes#readme",
   "dependencies": {
+    "@code-fellows/supergoose": "^1.0.11",
     "minimist": "^1.2.5",
     "mongoose": "^5.10.3"
   },
   "devDependencies": {
+    "eslint": "^7.8.1",
     "jest": "^26.4.2"
   }
 }
